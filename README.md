@@ -1,0 +1,1 @@
+# coinlaundry-fukuoka
