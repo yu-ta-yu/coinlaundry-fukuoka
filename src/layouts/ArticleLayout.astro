@@ -1,19 +1,35 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import AffiliateBlock from "../components/AffiliateBlock.astro";
+
+interface AffiliateItem {
+  label: string;
+  href: string;
+  note?: string;
+}
 
 interface Props {
   title: string;
   description?: string;
   lastVerified: string;
+  affiliates?: AffiliateItem[];
 }
 
-const { title, description, lastVerified } = Astro.props;
+const { title, description, lastVerified, affiliates = [] } = Astro.props;
 ---
 <BaseLayout title={title} description={description} ogType="article">
   <article>
     <h1>{title}</h1>
     <p class="last-verified">情報確認日: {lastVerified}</p>
     <slot />
+    {affiliates.length > 0 && (
+      <section class="affiliate-section">
+        <h2>あわせて便利なアイテム</h2>
+        {affiliates.map((item) => (
+          <AffiliateBlock label={item.label} href={item.href} note={item.note} />
+        ))}
+      </section>
+    )}
   </article>
   <p><a href="/">← 店舗一覧・比較トップへ戻る</a></p>
 </BaseLayout>

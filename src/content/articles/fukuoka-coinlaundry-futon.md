@@ -4,6 +4,12 @@ slug: "fukuoka-coinlaundry-futon"
 type: "cluster"
 last_verified: "2026年7月"
 description: "羽毛布団・こたつ布団・毛布を丸洗いできる福岡市のコインランドリーを比較。対応布団の種類・最大容量・所要時間・料金の目安をまとめました。"
+# 楽天アフィリエイトのリンク取得後、下のコメントを外してhrefを差し替えると
+# 記事末尾に「あわせて便利なアイテム」ボックスが自動表示されます
+# affiliates:
+#   - label: "大型ランドリーバッグ（布団の持ち運びに）"
+#     href: "https://hb.afl.rakuten.co.jp/xxxxx"
+#     note: "布団をコインランドリーへ運ぶときにあると便利です"
 ---
 
 ## 結論：容量と対応布団の種類で選ぶ

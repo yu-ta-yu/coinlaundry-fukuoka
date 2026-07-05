@@ -4,6 +4,12 @@ slug: "fukuoka-coinlaundry-24h-tenjin-hakata"
 type: "cluster"
 last_verified: "2026年7月"
 description: "天神・博多エリアの24時間営業コインランドリーを比較。最寄り駅からの徒歩分数、大型乾燥機の有無、キャッシュレス対応など深夜利用のポイントを解説します。"
+# 楽天アフィリエイトのリンク取得後、下のコメントを外してhrefを差し替えると
+# 記事末尾に「あわせて便利なアイテム」ボックスが自動表示されます
+# affiliates:
+#   - label: "圧縮できるランドリーバッグ"
+#     href: "https://hb.afl.rakuten.co.jp/xxxxx"
+#     note: "仕事帰りの持ち運びもコンパクトに"
 ---
 
 ## 結論：深夜利用なら立地とキャッシュレス対応を優先

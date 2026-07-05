@@ -1,0 +1,48 @@
+---
+interface Props {
+  label: string;
+  href: string;
+  note?: string;
+}
+
+const { label, href, note } = Astro.props;
+---
+<div class="affiliate-block">
+  <span class="affiliate-pr">PR</span>
+  <div class="affiliate-body">
+    <a href={href} target="_blank" rel="sponsored nofollow noopener">{label}</a>
+    {note && <p class="affiliate-note">{note}</p>}
+  </div>
+</div>
+
+<style is:global>
+  .affiliate-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: 0.85rem 1rem;
+    margin-bottom: 0.75rem;
+  }
+  .affiliate-pr {
+    flex-shrink: 0;
+    background: #e8a13d;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 0.1rem 0.4rem;
+    margin-top: 0.25rem;
+  }
+  .affiliate-body a {
+    color: var(--color-main);
+    font-weight: bold;
+  }
+  .affiliate-note {
+    font-size: 0.85rem;
+    color: #5a6672;
+    margin: 0.25rem 0 0;
+  }
+</style>

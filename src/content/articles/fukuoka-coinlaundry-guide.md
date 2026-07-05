@@ -4,6 +4,12 @@ slug: "fukuoka-coinlaundry-guide"
 type: "pillar"
 last_verified: "2026年7月"
 description: "福岡市内のコインランドリー5店舗を容量・布団丸洗い対応・24時間営業・支払い方法で横断比較。目的別の選び方をまとめた完全ガイドです。"
+# 楽天アフィリエイトのリンク取得後、下のコメントを外してhrefを差し替えると
+# 記事末尾に「あわせて便利なアイテム」ボックスが自動表示されます
+# affiliates:
+#   - label: "コインランドリー用 折りたたみランドリーバスケット"
+#     href: "https://hb.afl.rakuten.co.jp/xxxxx"
+#     note: "大量の洗濯物の持ち運びに"
 ---
 
 ## 結論：目的別に選ぶなら、この3タイプ
