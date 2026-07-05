@@ -3,6 +3,7 @@ title: "布団の丸洗いができる福岡市のコインランドリー比較
 slug: "fukuoka-coinlaundry-futon"
 type: "cluster"
 last_verified: "2026年7月"
+description: "羽毛布団・こたつ布団・毛布を丸洗いできる福岡市のコインランドリーを比較。対応布団の種類・最大容量・所要時間・料金の目安をまとめました。"
 ---
 
 ## 結論：容量と対応布団の種類で選ぶ

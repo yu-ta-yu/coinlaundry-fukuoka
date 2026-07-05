@@ -3,6 +3,7 @@ title: "福岡市コインランドリー設備比較｜大型乾燥機・布団
 slug: "fukuoka-coinlaundry-guide"
 type: "pillar"
 last_verified: "2026年7月"
+description: "福岡市内のコインランドリー5店舗を容量・布団丸洗い対応・24時間営業・支払い方法で横断比較。目的別の選び方をまとめた完全ガイドです。"
 ---
 
 ## 結論：目的別に選ぶなら、この3タイプ
