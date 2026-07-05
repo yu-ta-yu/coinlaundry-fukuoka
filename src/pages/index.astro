@@ -1,44 +1,48 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
 
 const stores = [
   {
     name: "せんたく広場すせんじ",
     area: "西区・周船寺エリア",
-    futon: "[要確認]",
-    hours: "[要確認]",
+    futon: "○",
+    capacity: "25kg",
+    hours: "24時間営業",
   },
   {
     name: "Baluko Laundry Place 姪浜",
     area: "西区・姪浜エリア",
-    futon: "[要確認]",
-    hours: "[要確認]",
+    futon: "○",
+    capacity: "27kg",
+    hours: "24時間営業",
   },
   {
     name: "Baluko Laundry Place 福岡今川",
     area: "中央区・今川エリア",
-    futon: "[要確認]",
-    hours: "[要確認]",
+    futon: "○",
+    capacity: "大型",
+    hours: "24時間営業",
   },
   {
     name: "ランドリープレス博多住吉店",
     area: "博多区・住吉エリア",
-    futon: "[要確認]",
-    hours: "[要確認]",
+    futon: "○",
+    capacity: "洗濯35kg／乾燥27kg",
+    hours: "24時間営業",
   },
   {
     name: "ランドリープレス警固店",
     area: "中央区・警固エリア",
-    futon: "[要確認]",
-    hours: "[要確認]",
+    futon: "○",
+    capacity: "大型",
+    hours: "24時間営業",
   },
 ];
 
-const articles = [
-  { title: "福岡市コインランドリー設備比較 完全ガイド", status: "近日公開" },
-  { title: "布団丸洗いに対応した福岡市のコインランドリー比較", status: "近日公開" },
-  { title: "24時間営業で使える天神・博多エリアのコインランドリー", status: "近日公開" },
-];
+const articles = (await getCollection("articles")).sort((a, b) =>
+  a.data.type === "pillar" ? -1 : b.data.type === "pillar" ? 1 : 0
+);
 ---
 <BaseLayout title="福岡コインランドリー設備比較｜容量・布団対応・営業時間がわかる">
   <h1>福岡市のコインランドリーを「設備」で比較できるサイト</h1>
@@ -56,7 +60,8 @@ const articles = [
         <tr>
           <th>店舗名</th>
           <th>エリア</th>
-          <th>布団対応</th>
+          <th>布団丸洗い</th>
+          <th>最大容量目安</th>
           <th>営業時間</th>
         </tr>
       </thead>
@@ -66,6 +71,7 @@ const articles = [
             <td>{s.name}</td>
             <td>{s.area}</td>
             <td>{s.futon}</td>
+            <td>{s.capacity}</td>
             <td>{s.hours}</td>
           </tr>
         ))}
@@ -73,14 +79,14 @@ const articles = [
     </table>
   </div>
   <p class="coming-soon">
-    ※ 表内の詳細データは各店舗の公式情報を確認のうえ、順次掲載します。
+    ※ 営業時間・料金は変更される場合があります。利用前に各店舗の公式サイトで最新情報をご確認ください。
   </p>
 
   <h2>比較記事</h2>
   <ul>
     {articles.map((a) => (
       <li>
-        {a.title} <span class="coming-soon">（{a.status}）</span>
+        <a href={`/articles/${a.slug}`}>{a.data.title}</a>
       </li>
     ))}
   </ul>

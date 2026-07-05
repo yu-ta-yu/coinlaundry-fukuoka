@@ -1,0 +1,34 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  title: string;
+  description?: string;
+  lastVerified: string;
+}
+
+const { title, description, lastVerified } = Astro.props;
+---
+<BaseLayout title={title} description={description}>
+  <article>
+    <h1>{title}</h1>
+    <p class="last-verified">情報確認日: {lastVerified}</p>
+    <slot />
+  </article>
+  <p><a href="/">← 店舗一覧・比較トップへ戻る</a></p>
+</BaseLayout>
+
+<style is:global>
+  .last-verified {
+    font-size: 0.85rem;
+    color: #5a6672;
+    margin-bottom: 1.5rem;
+  }
+  article blockquote {
+    border-left: 4px solid #d8e0e8;
+    padding-left: 0.75rem;
+    color: #5a6672;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+</style>
