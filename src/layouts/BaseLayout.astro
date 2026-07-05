@@ -1,0 +1,78 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "福岡市のコインランドリー設備を横断比較。容量・布団対応・営業時間がひと目でわかります。" } = Astro.props;
+---
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <style>
+    :root {
+      --color-main: #1a6fb5;
+      --color-bg: #f7f9fb;
+      --color-text: #2b3440;
+      --color-border: #d8e0e8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+      color: var(--color-text);
+      background: var(--color-bg);
+      line-height: 1.8;
+    }
+    header.site-header {
+      background: var(--color-main);
+      color: #fff;
+      padding: 1rem 1.25rem;
+    }
+    header.site-header a { color: #fff; text-decoration: none; font-weight: bold; font-size: 1.1rem; }
+    main { max-width: 860px; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+    footer.site-footer {
+      border-top: 1px solid var(--color-border);
+      background: #fff;
+      padding: 1.5rem 1.25rem;
+      font-size: 0.85rem;
+      color: #5a6672;
+      text-align: center;
+    }
+    .pr-notice {
+      background: #fff;
+      border: 1px solid var(--color-border);
+      border-radius: 6px;
+      font-size: 0.8rem;
+      color: #5a6672;
+      padding: 0.5rem 0.75rem;
+      margin-bottom: 1.25rem;
+    }
+    h1 { font-size: 1.6rem; margin: 1rem 0; line-height: 1.4; }
+    h2 { font-size: 1.25rem; margin: 2rem 0 0.75rem; padding-left: 0.6rem; border-left: 4px solid var(--color-main); }
+    p { margin-bottom: 1rem; }
+    table { border-collapse: collapse; width: 100%; background: #fff; font-size: 0.9rem; }
+    th, td { border: 1px solid var(--color-border); padding: 0.5rem 0.6rem; text-align: left; }
+    th { background: #eaf2f9; white-space: nowrap; }
+    .table-wrap { overflow-x: auto; margin-bottom: 1rem; }
+    ul { padding-left: 1.4em; margin-bottom: 1rem; }
+    .coming-soon { color: #8a94a0; font-size: 0.85em; }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a href="/">福岡コインランドリー設備比較</a>
+  </header>
+  <main>
+    <div class="pr-notice">本ページはプロモーションが含まれています</div>
+    <slot />
+  </main>
+  <footer class="site-footer">
+    <p>掲載内容は調査時点の情報です。料金・営業時間などの最新情報は必ず各店舗の公式サイトでご確認ください。</p>
+    <p>&copy; 2026 福岡コインランドリー設備比較</p>
+  </footer>
+</body>
+</html>
