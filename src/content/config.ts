@@ -7,6 +7,7 @@ const articles = defineCollection({
     type: z.enum(["pillar", "cluster"]),
     last_verified: z.string(),
     description: z.string().optional(),
+    og_image: z.string().optional(),
     affiliates: z
       .array(
         z.object({

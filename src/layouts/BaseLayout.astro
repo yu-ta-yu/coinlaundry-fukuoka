@@ -3,15 +3,18 @@ interface Props {
   title: string;
   description?: string;
   ogType?: "website" | "article";
+  ogImage?: string;
 }
 
 const {
   title,
   description = "福岡市のコインランドリー設備を横断比較。容量・布団対応・営業時間がひと目でわかります。",
   ogType = "website",
+  ogImage,
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImageUrl = ogImage ? new URL(ogImage, Astro.site) : undefined;
 ---
 <!doctype html>
 <html lang="ja">
@@ -27,7 +30,8 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
   <meta property="og:url" content={canonical} />
   <meta property="og:site_name" content="福岡コインランドリー設備比較" />
   <meta property="og:locale" content="ja_JP" />
-  <meta name="twitter:card" content="summary" />
+  {ogImageUrl && <meta property="og:image" content={ogImageUrl} />}
+  <meta name="twitter:card" content={ogImageUrl ? "summary_large_image" : "summary"} />
   <style is:global>
     :root {
       --color-main: #1a6fb5;
