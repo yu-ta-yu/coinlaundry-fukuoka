@@ -6,36 +6,36 @@ const stores = [
   {
     name: "せんたく広場すせんじ",
     area: "西区・周船寺エリア",
-    futon: "○",
-    capacity: "25kg",
-    hours: "24時間営業",
+    futon: "素材・機種を事前相談",
+    capacity: "S〜XL（kg数は店頭確認）",
+    hours: "6時〜24時",
   },
   {
     name: "Baluko Laundry Place 姪浜",
     area: "西区・姪浜エリア",
-    futon: "○",
+    futon: "素材・コースに条件あり",
     capacity: "撮影したL機：洗濯乾燥16kg／洗濯のみ27kg",
     hours: "24時間営業",
   },
   {
     name: "Baluko Laundry Place 福岡今川",
     area: "中央区・今川エリア",
-    futon: "○",
-    capacity: "大型",
+    futon: "素材・コースを事前確認",
+    capacity: "大容量機あり（kg数は店頭確認）",
     hours: "24時間営業",
   },
   {
-    name: "ランドリープレス博多住吉店",
+    name: "ランドリープレス住吉店",
     area: "博多区・住吉エリア",
-    futon: "○",
-    capacity: "洗濯35kg／乾燥27kg",
+    futon: "布団・毛布コースあり／敷ふとん専用なし",
+    capacity: "XL：洗濯35kg／乾燥27kg",
     hours: "24時間営業",
   },
   {
     name: "ランドリープレス警固店",
     area: "中央区・警固エリア",
-    futon: "○",
-    capacity: "大型",
+    futon: "布団コースあり（素材は事前確認）",
+    capacity: "XL：洗濯35kg／乾燥27kg",
     hours: "24時間営業",
   },
 ];
@@ -70,7 +70,7 @@ const articles = (await getCollection("articles")).sort((a, b) =>
           <th>店舗名</th>
           <th>エリア</th>
           <th>布団丸洗い</th>
-          <th>最大容量目安</th>
+          <th>機器容量・案内</th>
           <th>営業時間</th>
         </tr>
       </thead>
@@ -88,7 +88,8 @@ const articles = (await getCollection("articles")).sort((a, b) =>
     </table>
   </div>
   <p class="coming-soon">
-    ※ 営業時間・料金は変更される場合があります。利用前に各店舗の公式サイトで最新情報をご確認ください。
+    ※ 公式資料の確認日：2026年9月12日（姪浜店は9月11日）。営業時間・料金は変更される場合があります。
+    出典と利用条件は<a href="/articles/fukuoka-coinlaundry-guide/">5店舗の比較記事</a>で確認できます。
   </p>
 
   <h2>比較記事</h2>
