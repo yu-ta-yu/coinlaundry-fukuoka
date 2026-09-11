@@ -27,7 +27,7 @@ description: "福岡市内のコインランドリー5店舗を容量・布団�
 | 店舗名 | エリア | 24時間営業 | 布団丸洗い対応 | 最大容量目安 | 支払い方法 | 料金目安 |
 |---|---|---|---|---|---|---|
 | せんたく広場すせんじ | 西区周船寺 | ○ | ○ | 25kg | 現金・カード | 1,200円〜1,800円台（[公式サイト](https://sentakuhiroba.com/)） |
-| Baluko Laundry Place 姪浜 | 西区姪浜駅南 | ○ | ○ | 27kg | 現金・バルコカード | 1,400円〜2,000円台（[公式サイト](https://baluko.jp/baluko-meinohama/)） |
+| Baluko Laundry Place 姪浜 | 西区姪浜駅南 | ○ | 条件あり（[布団記事](/articles/fukuoka-coinlaundry-futon/)） | 撮影したL機：洗濯乾燥16kg／洗濯のみ27kg | 現金・バルコカード | 最新料金は店頭で確認。コース別の撮影表示は[布団記事](/articles/fukuoka-coinlaundry-futon/)を参照（[公式サイト](https://baluko.jp/baluko-meinohama/)） |
 | ランドリープレス博多住吉店 | 博多区住吉（博多駅 徒歩約14分） | ○ | ○ | 洗濯35kg／乾燥27kg | 現金・プリペイド | 1,300円〜1,900円台（[公式サイト](https://www.laundrypress.net/store_price/)） |
 | Baluko Laundry Place 福岡今川 | 中央区今川（唐人町駅 徒歩約8分） | ○ | ○ | 大型 | 現金・バルコカード | 1,400円〜2,000円台（[公式サイト](https://baluko.jp/baluko-fukuokaimagawa/)） |
 | ランドリープレス警固店 | 中央区警固（赤坂駅 徒歩約8分） | ○ | ○ | 大型 | 現金・プリペイド | 1,300円〜1,900円台（[公式サイト](https://www.laundrypress.net/store_price/)） |
