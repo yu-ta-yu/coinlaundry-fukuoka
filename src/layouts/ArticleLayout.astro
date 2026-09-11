@@ -36,6 +36,16 @@ const { title, description, lastVerified, affiliates = [], ogImage } = Astro.pro
 </BaseLayout>
 
 <style is:global>
+  article img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  article table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
   .last-verified {
     font-size: 0.85rem;
     color: #5a6672;

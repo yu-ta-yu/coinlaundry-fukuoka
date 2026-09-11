@@ -5,12 +5,10 @@ type: "cluster"
 last_verified: "2026年7月"
 description: "羽毛布団・こたつ布団・毛布を丸洗いできる福岡市のコインランドリーを比較。対応布団の種類・最大容量・所要時間・料金の目安をまとめました。"
 og_image: "/images/meinohama/gaikan.webp"
-# 楽天アフィリエイトのリンク取得後、下のコメントを外してhrefを差し替えると
-# 記事末尾に「あわせて便利なアイテム」ボックスが自動表示されます
-# affiliates:
-#   - label: "大型ランドリーバッグ（布団の持ち運びに）"
-#     href: "https://hb.afl.rakuten.co.jp/xxxxx"
-#     note: "布団をコインランドリーへ運ぶときにあると便利です"
+affiliates:
+  - label: "持ち手付き布団収納袋（2点セット）を楽天市場で見る"
+    href: "https://hb.afl.rakuten.co.jp/ichiba/576e3ad4.a4c39d76.576e3ad5.556ce563/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhealtath-j%2Fmdj-618-ll03%2F&link_type=text&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9"
+    note: "布団の持ち運び用の袋を探している方へ。販売店記載のサイズは30×46×60cm、重さは1点350gです。布団の厚みや畳み方によって入るかどうかが変わるため、購入前に寸法と商品説明をご確認ください。"
 ---
 
 ## 結論：容量と対応布団の種類で選ぶ
