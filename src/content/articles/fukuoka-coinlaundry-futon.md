@@ -40,6 +40,12 @@ affiliates:
 
 出典：[Baluko公式「機器の使い方・洗えるもの」](https://baluko.jp/self-laundry?cont=washable)（2026年10月18日閲覧）。上記は利用条件の整理であり、洗濯の成功や仕上がりを保証するものではありません。姪浜店の写真に写る料金は、下の注意書きのとおり現在料金とは区別しています。
 
+## 店頭で洗えるか確認できないときは
+
+敷布団を持ち込める店が見つからない場合は、クリーニング店への相談や、集荷に対応する宅配クリーニングも選択肢です。依頼前に、手元の布団の素材・サイズが対象か、送料を含む総額、戻ってくるまでの日数を確認してください。
+
+**PR**：<a href="https://hb.afl.rakuten.co.jp/ichiba/59c3e06b.e6fd31eb.59c3e06c.933523bd/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmaruarai%2F576741-1%2F&amp;link_type=text&amp;ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJ0ZXh0Iiwic2l6ZSI6IjI0MHgyNDAiLCJuYW0iOjEsIm5hbXAiOiJyaWdodCIsImNvbSI6MSwiY29tcCI6ImRvd24iLCJwcmljZSI6MSwiYm9yIjoxLCJjb2wiOjEsImJidG4iOjEsInByb2QiOjAsImFtcCI6ZmFsc2V9" target="_blank" rel="sponsored nofollow noopener">敷布団1枚の宅配クリーニングの受付条件を楽天市場で見る</a>。販売店では四つ折りにできないダブルサイズの敷布団などを対象外としています。最新の受付条件と料金は商品ページをご確認ください。
+
 ## 姪浜店へ布団を運ぶ前に
 
 2026年9月11日に確認した[姪浜店の公式情報](https://baluko.jp/baluko-meinohama/)では、所在地は福岡市西区姪浜駅南1-4-12、駐車場は3台、営業時間は24時間・年中無休です。駐車できることや機械の空きを保証するものではないため、出発前に公式ページの稼働状況リンクも確認してください。
