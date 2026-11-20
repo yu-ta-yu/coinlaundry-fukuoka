@@ -24,7 +24,7 @@ const { title, description, lastVerified, affiliates = [], ogImage } = Astro.pro
     <p class="last-verified">情報確認日: {lastVerified}</p>
     <slot />
     {affiliates.length > 0 && (
-      <section class="affiliate-section">
+      <section class="affiliate-section" id="related-items">
         <h2>あわせて便利なアイテム</h2>
         {affiliates.map((item) => (
           <AffiliateBlock label={item.label} href={item.href} note={item.note} />
